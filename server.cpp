@@ -21,9 +21,10 @@ int main(int argc, const char * argv[])
 	// char buffer[buf_size];
 	// struct sockaddr_in sin;
 
-	for(i=0, i<argc, i++){
+	for(int i = 0; i<argc; i++){
 		cout<<argv[i]<<endl;
 	}
+	return 0;
 
 	// if ((client = socket(AF_INET, SOCK_STREAM, IPPROTO_TCP)) < 0){
 	// 	perror("opening TCP socket");
